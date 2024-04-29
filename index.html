@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Krainet's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <section class="promo" id="promo">
+            <div class="promo__background"></div>
+            <div class="overlay" id="overlay"></div>
+            <div class="menu" id="menu">
+                <button class="close-button" aria-label="закрыть меню" id="close-menu">
+                    <span class="close-button__line"></span></button>
+                <nav>
+                    <ul class="menu__list">
+                        <li class="menu__item" id="promo-trigger">
+                            <a href="#promo">ПРО МЕНЯ</a>
+                        </li>
+                        <li class="menu__item" id="benefits-trigger">
+                            <a href="#benefits">МОЙ ОПЫТ</a>
+                        </li>
+                        <li class="menu__item" id="contacts-trigger">
+                            <a href="#contacts">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="menu__socials socials ">
+                    <ul class="socials__icon-list">
+                        <li>
+                            <a href="https://github.com/" class="socials__icon" target="_blank">
+                                <img src="img/icons/github.svg" alt="github"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" class="socials__icon" target="_blank">
+                                <img src="img/icons/instagram.svg" alt="instagram"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" class="socials__icon" target="_blank">
+                                <img src="img/icons/facebook.svg" alt="facebook"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="promo__container">
+                <div class="promo__titles">
+                    <h3 class="subtitle promo__subtitle">Меня зовут Александра Смит</h3>
+                    <h1 class="title">Я web-разработчик <br> из города Москва</h1>
+                </div>
+                <div class="promo__buttons">
+                    <a class="button" href="#">Портфолио</a>
+                    <a class="button button_transparent" href="#">Про меня</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="benefits" id="benefits">
+            <div class="benefits__container">
+                <div class='section-titles'>
+                    <h3 class="subtitle benefits__subtitle">Опыт</h3>
+                    <h2 class="section-title">Чем я буду полезна</h2>
+                </div>
+                <div class="benefits__blocks">
+                    <div class="benefits-block">
+                        <h4 class="benefits-block__title">Образование</h4>
+                        <div class="benefits-item">
+                            <div class="benefits-item__header">
+                                <span class="benefits-item__circle"></span>
+                                <div class="benefits-item__title-group">
+                                    <h5 class="benefits-item__subtitle">МГТУ им. Н. Э. Баумана</h5>
+                                    <span class="benefits-item__caption">Диплом магистра | Москва (2014-2020)</span>
+                                </div>
+                            </div>
+                            <p class="benefits-item__description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit, sed do eiusmo.</p>
+                        </div>
+                        <div class="benefits-item">
+                            <div class="benefits-item__header">
+                                <span class="benefits-item__circle benefits-item__circle_courses"></span>
+                                <div class="benefits-item__title-group">
+                                    <h5 class="benefits-item__subtitle">Udemy</h5>
+                                    <span class="benefits-item__caption">Курсы по Web-разработке</span>
+                                </div>
+                            </div>
+                            <p class="benefits-item__description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit, sed do eiusmo.</p>
+                        </div>
+                    </div>
+                    <div class="benefits-block">
+                        <h4 class="benefits-block__title">Опыт работы</h4>
+                        <div class="benefits-item">
+                            <div class="benefits-item__header">
+                                <span class="benefits-item__circle benefits-item__circle_developer"></span>
+                                <div class="benefits-item__title-group">
+                                    <h5 class="benefits-item__subtitle">Front-End Developer</h5>
+                                    <span class="benefits-item__caption">EPAM | Москва (2018-2019)</span>
+                                </div>
+                            </div>
+                            <p class="benefits-item__description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit, sed do eiusmo.</p>
+                        </div>
+                        <div class="benefits-item">
+                            <div class="benefits-item__header">
+                                <span class="benefits-item__circle benefits-item__circle_designer"></span>
+                                <div class="benefits-item__title-group">
+                                    <h5 class="benefits-item__subtitle">UI/UX Designer</h5>
+                                    <span class="benefits-item__caption">Squad Team | Москва (2018)</span>
+                                </div>
+                            </div>
+                            <p class="benefits-item__description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit, sed do eiusmo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts" id="contacts">
+            <div class="contacts__image">
+                <img src="img/contacts.webp" alt="Фотография Александы"/>
+            </div>
+            <div class="contacts__container">
+                <div class='section-titles section-titles__contacts'>
+                    <h3 class="subtitle subtitle_contacts">Контакты</h3>
+                    <h2 class="section-title section-title_contacts">Свяжитесь со мной</h2>
+                </div>
+                <div class='contacts__details'>
+                    <p class="contacts__text">Любым удобным для вас способом:</p>
+                    <ul class="socials__icon-list contacts__socials">
+                        <li>
+                            <a href="https://www.facebook.com/" class="socials__icon" target="_blank">
+                                <img src="img/icons/facebook.svg" alt="facebook" width="30"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://telegram.org/" class="socials__icon" target="_blank">
+                                <img src="img/icons/telegram.svg" alt="telegram"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" class="socials__icon" target="_blank">
+                                <img src="img/icons/instagram.svg" alt="instagram" width="30"/>
+                            </a>
+                        </li>
+
+                    </ul>
+                    <p class="contacts__text">Или оставьте ваши данные и я сама вам напишу:</p>
+                </div>
+                <form class='form' id="form">
+                    <div class='form__inputs'>
+                        <div class='input-container'>
+                            <input class='input field' type="text" name="name" placeholder="Иван" id="name" aria-label="Ваше имя"/>
+                            <label class='label' for="name">Ваше имя</label>
+                        </div>
+                        <div class='input-container'>
+                            <input class='input field' type="email" name="email" id="email" aria-label="Ваша почта"/>
+                            <label class='label' for="email">Ваша почта</label>
+                        </div>
+                    </div>
+                    <div class='input-container'>
+                        <textarea class='textarea field' name="message" id="message" aria-label="Ваше сообщение"></textarea>
+                        <label class='label label__textarea' for="message">Ваше сообщение</label>
+                    </div>
+                    <div class="agreement">
+                        <input class='checkbox' type="checkbox"/>
+                        <p>Я согласен(а) с <a href="#">политикой конфиденциальности</a></p>
+                    </div>
+                        <button class='button button__contacts' type="submit">Отправить сообщение</button>
+                </form>
+            </div>
+        </section>
+
+        <button class="burger" id='burger' aria-label="открыть меню">
+            <span class="burger__line"></span>
+        </button>
+
+        <nav class="socials socials_removed">
+            <span class="subtitle subtitle__socials">Социальные сети</span>
+            <ul class="socials__icon-list">
+                <li>
+                    <a href="https://github.com/" class="socials__icon" target="_blank">
+                        <img src="img/icons/github.svg" alt="github"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" class="socials__icon" target="_blank">
+                        <img src="img/icons/instagram.svg" alt="instagram"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/" class="socials__icon" target="_blank">
+                        <img src="img/icons/facebook.svg" alt="facebook"/>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="notification" id="notification">
+        <h3 id="greeting"></h3>
+        <p>Твое сообщение доставлено!</p>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/fibanacchi.js"></script>
+</body>
+</html>
