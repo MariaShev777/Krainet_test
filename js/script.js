@@ -5,13 +5,15 @@ function closeMenu() {
     document.getElementById("overlay").style.display = "none";
     document.body.style.overflow = 'unset';
     document.body.style.paddingRight = '0px';
+    document.documentElement.style.overflowY = 'unset'
 }
 
 function openMenu() {
     menu.classList.toggle('menu_open');
     document.getElementById("overlay").style.display = "block";
-    document.body.style.overflow = 'hidden';
+    document.body.style.overflowY = 'hidden';
     document.body.style.paddingRight = '10px';
+    document.documentElement.style.overflowY = 'hidden'
 }
 
 
