@@ -845,4 +845,10 @@ a {
     .menu_open {
         width: 250px;
     }
+
+    .notification {
+        font-size: 12px;
+        width: 60vw;
+        gap: 10px;
+    }
 }
