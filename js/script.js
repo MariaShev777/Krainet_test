@@ -5,7 +5,7 @@ function closeMenu() {
     document.getElementById("overlay").style.display = "none";
     document.body.style.overflow = 'unset';
     document.body.style.paddingRight = '0px';
-    document.documentElement.style.overflowY = 'unset'
+    document.documentElement.style.overflowY = 'unset';
 }
 
 function openMenu() {
@@ -13,7 +13,7 @@ function openMenu() {
     document.getElementById("overlay").style.display = "block";
     document.body.style.overflowY = 'hidden';
     document.body.style.paddingRight = '10px';
-    document.documentElement.style.overflowY = 'hidden'
+    document.documentElement.style.overflowY = 'hidden';
 }
 
 
